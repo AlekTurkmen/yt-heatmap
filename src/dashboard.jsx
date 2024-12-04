@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import ActivityCalendar from 'react-activity-calendar';
 import { Tooltip as ReactTooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
-import supabase from './supabaseClient';
+import supabase from '../supabaseClient';
 
 function Dashboard() {
   const [activities, setActivities] = useState([]);

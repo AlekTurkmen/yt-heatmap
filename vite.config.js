@@ -3,5 +3,12 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/yt-heatmap/', // Must match your repo name
+  base: '/yt-heatmap/',
+  root: './',
+  build: {
+    outDir: 'dist'
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
+  }
 })
