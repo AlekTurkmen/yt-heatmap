@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/yt-heatmap/',
   root: './',
   build: {
-    outDir: 'dist'
+    outDir: 'docs'  // Changed from 'dist' to 'docs'
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
